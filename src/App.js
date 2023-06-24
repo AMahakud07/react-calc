@@ -128,6 +128,7 @@ function App() {
   const [{ currentOperand, previousOperand, operation }, dispatch] = useReducer(reducer, {})
   // dispatch({type:ACTIONS.ADD_DIGIT, payload:{digit :1}})
   return (
+    <>
     <div className="calculator-grid">
       <div className='output'>
         <div className='previous-operand'>{previousOperand} {operation}</div>
@@ -152,6 +153,13 @@ function App() {
       <DigitButton digit="0" dispatch={dispatch} />
       <button className='span-two' onClick={()=>dispatch({type:ACTIONS.EVALUATE})}>=</button>
     </div>
+    <div className='bottom-tag'>
+      <p>
+      Made with love by Abhishek ♡
+
+      </p>
+    </div>
+    </>
   );
 }
 
