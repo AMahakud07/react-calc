@@ -1,5 +1,6 @@
 # useReducer 
 Manually written functions for all the calculations.
+(No external library used.)
 
 # Getting Started with Create React App
 
