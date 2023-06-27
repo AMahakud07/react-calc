@@ -1,5 +1,5 @@
 # useReducer 
-
+Manually written functions for all the calculations.
 
 # Getting Started with Create React App
 
